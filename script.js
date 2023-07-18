@@ -58,7 +58,7 @@ function checkAnswer(selectedColour){
 
 
 function playSound(sound_name){
-    var sound = new Audio(sound_name + ".mp3");
+    var sound = new Audio("voices/" + sound_name + ".mp3");
     sound.play();
 }
 
